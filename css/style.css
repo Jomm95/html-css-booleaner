@@ -3,7 +3,9 @@ body {
     margin:0;
 }
 
-header {
+/* Inizio header */
+
+#container {
    background-color:rgb(26, 107, 212);
    background-image:url(../img/pattern.png);
    background-size: 40%;
@@ -18,6 +20,10 @@ header {
    margin-left:10px;
 }
 
+/* Fine header */
+
+/* Inizio main */
+
 main, footer {
     margin-left:10px;
 }
@@ -27,8 +33,16 @@ h1 {
     margin:0;
 }
 
-.article-author {
+.author {
     margin:0;
+    font-size: 18px;
+}
+
+.date {
+    font-size: 12px;
+}
+
+.grey {
     color:rgb(131, 130, 130);
 }
 
@@ -37,21 +51,13 @@ h1 {
 }
 
 #img-container {
-    height:450px;
     margin-bottom:3px;
+    margin:0;
 }
 
-#photo1 {
-    width:47%;
-    height:100%;
-}
 
-#photo2 {
-    width:47%;
-    height:100%;
-}
 
-#photo-description {
+#photos-caption {
     font-size:12px;
     font-weight: 500;
 }
@@ -80,7 +86,11 @@ table {
     background-color:rgb(115, 237, 241);
 }
 
-footer span{
+/* Fine header */
+
+/* Inizio footer */
+
+footer h2{
     color:rgb(131, 130, 130);
     font-size: 18px;
     font-weight: 800;
